@@ -30,7 +30,7 @@ bot = Bot(token="bot_token")
 dp = Dispatcher(bot, storage=storage)
 
 
-class song_state(StatesGroup):
+class SongState(StatesGroup):
     song = State()
 
 
