@@ -25,7 +25,7 @@ button10 = InlineKeyboardButton('10', callback_data='button10')
 
 logging.basicConfig(level=logging.INFO)
 
-bot = Bot(token="bot_token")
+bot = Bot(token="7540561916:AAGnl6VCFHDNxqWlPpHx358oDkq_Ex945P4")
 
 dp = Dispatcher(bot, storage=storage)
 
